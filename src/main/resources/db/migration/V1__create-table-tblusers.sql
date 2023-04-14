@@ -1,0 +1,9 @@
+CREATE TABLE tblUsers (
+  id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  role VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL
+);
+INSERT INTO tblUsers VALUES(1,'admin','$2a$10$r1T0SrNJf5dLR0C4rJouHeHnY/KAO6DSoSfDU/RyHBAc6ki36O0eu','ADMIN','admin@email.com','Admin Da Silva Santos')
