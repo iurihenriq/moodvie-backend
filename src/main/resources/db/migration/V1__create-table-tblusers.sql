@@ -4,6 +4,7 @@ CREATE TABLE tblUsers (
   password VARCHAR(255) NOT NULL,
   role VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
-  name VARCHAR(255) NOT NULL
+  name VARCHAR(255) NOT NULL,
+  birthdate DATE NOT NULL
 );
-INSERT INTO tblUsers VALUES(1,'admin','$2a$10$r1T0SrNJf5dLR0C4rJouHeHnY/KAO6DSoSfDU/RyHBAc6ki36O0eu','ADMIN','admin@email.com','Admin Da Silva Santos')
+INSERT INTO tblUsers VALUES(1,'admin','$2a$10$r1T0SrNJf5dLR0C4rJouHeHnY/KAO6DSoSfDU/RyHBAc6ki36O0eu','ADMIN','admin@email.com','Admin Da Silva Santos','2000-03-20')
